@@ -4,7 +4,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface ConsumerService {
-    void addListener();
 
-    void processMsg();
+    void addConsumer(String classPath);
 }

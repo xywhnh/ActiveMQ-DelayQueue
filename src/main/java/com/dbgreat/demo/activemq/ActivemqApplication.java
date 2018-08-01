@@ -10,11 +10,6 @@ import javax.jms.Queue;
 @SpringBootApplication
 public class ActivemqApplication {
 
-	@Bean
-	public Queue queue1() {
-		return new ActiveMQQueue("queue1");
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(ActivemqApplication.class, args);
 	}
